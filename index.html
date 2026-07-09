@@ -222,8 +222,8 @@
    3. Paste your project URL + anon (public) key below
    Until then the site runs in local "preview mode" automatically.
    ============================================================ */
-const SUPABASE_URL = "";       // e.g. "https://abcd1234.supabase.co"
-const SUPABASE_ANON_KEY = "";  // the public "anon" key (safe to expose)
+const SUPABASE_URL = "https://aymrbkhwxpibxbilyqab.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF5bXJia2h3eHBpYnhiaWx5cWFiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM1NDc1NDIsImV4cCI6MjA5OTEyMzU0Mn0.BMm5iN7RNMBvPChYtOQejy3gyphJngab4CKaG8xOw5U";  // public "anon" key — safe to commit (RLS limits it to insert-vote + read-counts)
 
 const LIVE = Boolean(SUPABASE_URL && SUPABASE_ANON_KEY);
 const IMG = id => `https://cdn.cloudflare.steamstatic.com/steam/apps/${id}/header.jpg`;
