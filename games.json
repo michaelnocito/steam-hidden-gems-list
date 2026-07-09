@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "totalAnalyzed": 125000,
+    "totalGems": 175,
+    "criteria": "2,000+ reviews, 95%+ positive, priced ≤ $20, low ownership tier (under ~200k owners)",
+    "source": "Steam Games Dataset by FronkonGames (Kaggle)",
+    "repo": "https://github.com/michaelnocito/steam-hidden-gems"
+  },
+  "games": [
+    { "rank": 1, "name": "A Castle Full of Cats", "appid": 2070550, "positive": 99.4, "reviews": 3986, "price": "$2.39", "free": false, "owners": "100k–200k", "pitch": "Hunt down every hidden cat in a hand-drawn castle. Pure cozy, pure charm." },
+    { "rank": 2, "name": "Aventura Copilului Albastru și Urât", "appid": 1530140, "positive": 99.3, "reviews": 2452, "price": "$1.33", "free": false, "owners": "50k–100k", "pitch": "A surreal Romanian point-and-click that shouldn't work and completely does." },
+    { "rank": 3, "name": "The Upturned", "appid": 1717770, "positive": 99.3, "reviews": 2347, "price": "$5.99", "free": false, "owners": "50k–100k", "pitch": "Dreamlike horror-adventure with an art style you won't forget." },
+    { "rank": 4, "name": "Patrick's Parabox", "appid": 1260520, "positive": 99.2, "reviews": 4437, "price": "$9.99", "free": false, "owners": "100k–200k", "pitch": "Push boxes into boxes into themselves. A genuinely mind-bending recursive puzzler." },
+    { "rank": 5, "name": "Smushi Come Home", "appid": 1740300, "positive": 99.1, "reviews": 2191, "price": "$9.99", "free": false, "owners": "50k–100k", "pitch": "A tiny mushroom's journey home. Small, calm, and adorable." },
+    { "rank": 6, "name": "Lil Gator Game", "appid": 1586800, "positive": 99.0, "reviews": 4691, "price": "$9.99", "free": false, "owners": "50k–100k", "pitch": "A wholesome cardboard-sword adventure about kids playing pretend. Zelda-lite, zero stress." },
+    { "rank": 7, "name": "Buy a Croquette!", "appid": 2167960, "positive": 99.0, "reviews": 4355, "price": "Free", "free": true, "owners": "100k–200k", "pitch": "Just try to buy a croquette. It will not be that simple. Free and hilarious." },
+    { "rank": 8, "name": "A Building Full of Cats", "appid": 1969080, "positive": 99.0, "reviews": 3969, "price": "$0.99", "free": false, "owners": "50k–100k", "pitch": "More cats, more hiding spots. The follow-up to the castle, and just as sweet." },
+    { "rank": 9, "name": "Look Outside", "appid": 3373660, "positive": 99.0, "reviews": 2615, "price": "$6.99", "free": false, "owners": "50k–100k", "pitch": "Survival-horror RPG with one rule: do not look outside. Deeply unsettling." },
+    { "rank": 10, "name": "Threefold Recital", "appid": 3084280, "positive": 98.9, "reviews": 3436, "price": "$11.99", "free": false, "owners": "50k–100k", "pitch": "A gorgeous wuxia visual novel with real depth and beautiful art." },
+    { "rank": 11, "name": "planetarian HD", "appid": 623080, "positive": 98.9, "reviews": 2947, "price": "$3.99", "free": false, "owners": "20k–50k", "pitch": "A robot, a ruined city, and one of the most quietly devastating short stories in games." },
+    { "rank": 12, "name": "星空列车与白的旅行 (Starlight Train)", "appid": 1567800, "positive": 98.8, "reviews": 5265, "price": "$5.99", "free": false, "owners": "20k–50k", "pitch": "A tender narrative adventure about a train, a journey, and letting go." },
+    { "rank": 13, "name": "Word Game: Episode 0", "appid": null, "searchTerm": "Word Game Episode 0", "positive": 98.8, "reviews": 4482, "price": "Free", "free": true, "owners": "100k–200k", "pitch": "A comedic adventure that keeps pulling the rug out from under you. Free." },
+    { "rank": 14, "name": "Picayune Dreams", "appid": 2088840, "positive": 98.8, "reviews": 3179, "price": "$2.99", "free": false, "owners": "100k–200k", "pitch": "A bullet-heaven roguelite wrapped in a strange, dreamy story. Way more than it looks." },
+    { "rank": 15, "name": "OneShot: World Machine Edition", "appid": 2915460, "positive": 98.8, "reviews": 2773, "price": "$7.99", "free": false, "owners": "50k–100k", "pitch": "A meta puzzle-adventure where you, not just the character, matter. Unforgettable." },
+    { "rank": 16, "name": "Papa's Pizzeria Deluxe", "appid": 3259470, "positive": 98.8, "reviews": 2659, "price": "$4.79", "free": false, "owners": "50k–100k", "pitch": "The beloved time-management classic, remade. Endlessly moreish." },
+    { "rank": 17, "name": "Summer Pockets", "appid": 897220, "positive": 98.7, "reviews": 4279, "price": "$17.99", "free": false, "owners": "50k–100k", "pitch": "A sprawling summer-island visual novel from the masters of the tearjerker." },
+    { "rank": 18, "name": "The Supper", "appid": 1171370, "positive": 98.6, "reviews": 4064, "price": "Free", "free": true, "owners": "100k–200k", "pitch": "A short, dark point-and-click revenge tale over a single evening. Free." },
+    { "rank": 19, "name": "Felvidek", "appid": 2299900, "positive": 98.6, "reviews": 3982, "price": "$7.36", "free": false, "owners": "100k–200k", "pitch": "A lo-fi medieval RPG about a washed-up, drunk knight. Bleak, funny, unique." },
+    { "rank": 20, "name": "White Knuckle", "appid": 3195790, "positive": 98.6, "reviews": 2992, "price": "$12.59", "free": false, "owners": "100k–200k", "pitch": "A tense first-person climbing game racing a rising threat below you. White-knuckle indeed." },
+    { "rank": 21, "name": "Your Turn To Die -Death Game By Majority-", "appid": 2067780, "positive": 98.6, "reviews": 2550, "price": "$13.59", "free": false, "owners": "100k–200k", "pitch": "A social-deduction horror VN where you vote on who dies. Gripping." },
+    { "rank": 22, "name": "Touhou Tenkuushou ~ Hidden Star in Four Seasons", "appid": 745880, "positive": 98.5, "reviews": 4428, "price": "$14.99", "free": false, "owners": "50k–100k", "pitch": "A dazzling bullet-hell shmup. Beautiful, brutal, and endlessly replayable." },
+    { "rank": 23, "name": "I Am Your Beast", "appid": 1876590, "positive": 98.5, "reviews": 3604, "price": "$13.99", "free": false, "owners": "100k–200k", "pitch": "Fast, punchy one-man-army revenge action from Strange Scaffold. Pure adrenaline." },
+    { "rank": 24, "name": "Milo and the Magpies", "appid": 1407420, "positive": 98.5, "reviews": 3086, "price": "$1.67", "free": false, "owners": "100k–200k", "pitch": "Help a cat find his way home through hand-painted gardens. Gorgeous and gentle." },
+    { "rank": 25, "name": "Epiphyllum in Love", "appid": 1161870, "positive": 98.5, "reviews": 2213, "price": "$2.35", "free": false, "owners": "50k–100k", "pitch": "A heartfelt, beautifully illustrated romance visual novel." },
+
+    { "rank": null, "freeRank": 4, "name": "Cureocity", "appid": 2612680, "positive": 98.3, "reviews": 2630, "price": "Free", "free": true, "owners": "100k–200k", "pitch": "A clever, satisfying free puzzle game that respects your time." },
+    { "rank": null, "freeRank": 5, "name": "Katawa Shoujo", "appid": 3068300, "positive": 98.2, "reviews": 3736, "price": "Free", "free": true, "owners": "100k–200k", "pitch": "The landmark free visual novel. Far more heartfelt and human than its reputation suggests." },
+    { "rank": null, "freeRank": 6, "name": "Ticy Adventure Club", "appid": null, "searchTerm": "Ticy Adventure Club", "positive": 98.1, "reviews": 3000, "price": "Free", "free": true, "owners": "100k–200k", "pitch": "A charming free adventure that flew completely under the radar." },
+    { "rank": null, "freeRank": 7, "name": "Swallow the Sea", "appid": 1511860, "positive": 97.5, "reviews": 2243, "price": "Free", "free": true, "owners": "100k–200k", "pitch": "A short, meditative free experience about growing and consuming. Quietly lovely." },
+    { "rank": null, "freeRank": 8, "name": "I commissioned some bees 0", "appid": 2250060, "positive": 97.0, "reviews": 4277, "price": "Free", "free": true, "owners": "50k–100k", "pitch": "A tiny, playful puzzle toy about bees. Free and delightfully strange." },
+    { "rank": null, "freeRank": 9, "name": "The Good Time Garden", "appid": 1200860, "positive": 95.9, "reviews": 2606, "price": "Free", "free": true, "owners": "100k–200k", "pitch": "A chaotic, gross-out little sandbox that's more fun than it has any right to be. Free." },
+    { "rank": null, "freeRank": 10, "name": "one night, hot springs", "appid": 917680, "positive": 95.5, "reviews": 2774, "price": "Free", "free": true, "owners": "100k–200k", "pitch": "A short, warm free visual novel about a trans woman's night at the hot springs." }
+  ]
+}
