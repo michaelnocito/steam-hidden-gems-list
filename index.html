@@ -11,10 +11,10 @@
 </script>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Steam Hidden Gems — 175 great games almost nobody has played</title>
-<meta name="description" content="175 Steam games cleared my hidden-gem filter — big review counts, tiny audiences — surfaced with SQL from a 125,000-game dataset. Browse the 32 highest-rated and vote on the picks." />
+<title>Steam Hidden Gems — 166 great games almost nobody has played</title>
+<meta name="description" content="166 Steam hidden gems — big review counts, tiny audiences — surfaced with SQL from a 125,000-game dataset (175 cleared the filter, 9 removed for bad/duplicate owner data). Browse the full list and vote." />
 <meta property="og:title" content="Steam Hidden Gems" />
-<meta property="og:description" content="175 games cleared my hidden-gem filter across 125,000 Steam titles, found with SQL. Browse the 32 highest-rated and vote on the picks." />
+<meta property="og:description" content="166 hidden gems found with SQL across 125,000 Steam titles (175 cleared the filter, 9 removed for bad/duplicate owner data). Browse the full list and vote on the picks." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://michaelnocito.github.io/steam-hidden-gems-list/" />
 <meta property="og:image" content="https://michaelnocito.github.io/steam-hidden-gems-list/og-cover.png" />
@@ -22,7 +22,7 @@
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Steam Hidden Gems" />
-<meta name="twitter:description" content="175 games cleared my hidden-gem filter across 125,000 Steam titles, found with SQL. Browse the 32 highest-rated and vote on the picks." />
+<meta name="twitter:description" content="166 hidden gems found with SQL across 125,000 Steam titles (175 cleared the filter, 9 removed for bad/duplicate owner data). Browse the full list and vote on the picks." />
 <meta name="twitter:image" content="https://michaelnocito.github.io/steam-hidden-gems-list/og-cover.png" />
 <style>
   :root {
@@ -195,12 +195,12 @@
     <p class="sub">Great games a devoted audience loves — but almost nobody has heard of. I searched <b style="color:#fff">125,000</b> Steam games with SQL to surface the ones that win on craft, not budget.</p>
     <div class="stats">
       <div class="stat"><div class="num">125k</div><div class="lbl">Games analyzed</div></div>
-      <div class="stat"><div class="num gem">175</div><div class="lbl">Cleared every bar</div></div>
+      <div class="stat"><div class="num gem">166</div><div class="lbl">True hidden gems</div></div>
       <div class="stat"><div class="num">95%+</div><div class="lbl">Positive minimum</div></div>
       <div class="stat"><div class="num">2,000+</div><div class="lbl">Reviews minimum</div></div>
     </div>
     <div class="method">
-      <b>How a game qualifies:</b> <span class="crit">2,000+ reviews, 95%+ positive, priced ≤ $20, and a small audience (under ~200k owners)</span> — highly rated, cheap, and genuinely under the radar. <b>175 games cleared all four bars.</b> Below are the 32 highest-rated of them: the picks closest to universal acclaim (98.5%+ positive), plus the best free-to-play qualifiers. <b>Think a rating is wrong?</b> Vote on each one.
+      <b>How a game qualifies:</b> <span class="crit">2,000+ reviews, 95%+ positive, priced ≤ $20, and a small audience (20k–200k owners)</span> — highly rated, cheap, and genuinely under the radar. 175 games cleared the raw filter; 9 turned out to have corrupted or duplicate owner data (Steam mega-hits mislabeled as tiny), so I removed them. <b>Here are all 166 real ones,</b> ranked by rating. The top picks have a short write-up; the rest are the raw results. <b>Think a rating is wrong?</b> Vote on each one.
     </div>
   </div>
 </header>
@@ -322,7 +322,7 @@ function cardHTML(g) {
     <div class="body">
       <h3>${g.name}</h3>
       <div class="meta"><span class="pos">${g.positive}% positive</span> · <span>${g.reviews.toLocaleString()} reviews</span></div>
-      <p class="pitch">${g.pitch}</p>
+      ${g.pitch ? `<p class="pitch">${g.pitch}</p>` : ''}
     </div>
     <div class="actions">
       <a class="steam-btn" href="${STORE(g)}" target="_blank" rel="noopener">View on Steam ↗</a>
